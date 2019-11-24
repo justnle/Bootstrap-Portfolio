@@ -1,0 +1,23 @@
+.name {
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(https://i.ytimg.com/vi/vv724Q6ncOM/maxresdefault.jpg);
+}
+
+#content {
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid grey;
+}
+
+#content-title {
+    padding-top: 50px;
+    border-bottom: 1px solid grey;
+}
