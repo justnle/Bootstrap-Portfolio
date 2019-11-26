@@ -1,6 +1,11 @@
 .name {
-    background-color: #4aaaa5;
     color: #fff;
+    padding: 0 10px 0 10px;
+}
+
+
+.navbar-brand {
+    background-color: #4aaaa5;
 }
 
 html, body {
