@@ -7,8 +7,12 @@ header {
     background-color: #4aaaa5;
 }
 
-button:hover {
+.submit-button:hover {
     opacity: 0.6;
+}
+
+button:active, button:focus {
+    outline-color: lightgray;
 }
 
 .navbar-nav > li > a:hover {
