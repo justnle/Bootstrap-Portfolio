@@ -3,8 +3,12 @@ header {
     color: #4aaaa5;
 }
 
-.navbar-brand {
+.navbar-brand, .submit-button, .project-names {
     background-color: #4aaaa5;
+}
+
+.navbar-nav > li > a:hover {
+    color: #4aaaa5 !important;
 }
 
 html, body {
@@ -12,26 +16,9 @@ html, body {
 }
 
 body {
-    height: 100%;
     background-image: url(https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?size=626&ext=jpg);
 }
 
  .sticky-footer {
      border-top: 8px solid #4aaaa5;
  }
-
- .project-names {
-    bottom: 30px;
-    background-color: #4aaaa5;
-}
-
-.submit-button {
-    background-color: #4aaaa5;
-}
-
-/* @media {
-    (max-width: 480px) {
-        .name {
-            margin-left: 5000px;
-        }
-} */
