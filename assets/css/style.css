@@ -7,6 +7,10 @@ header {
     background-color: #4aaaa5;
 }
 
+.project-names {
+    visibility: hidden;
+}
+
 .submit-button:hover {
     opacity: 0.6;
 }
