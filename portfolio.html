@@ -12,158 +12,91 @@
 </head>
 
 <body class="d-flex flex-column justify-content-between">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <div class="col-xl-1 col-lg-1 col-md-1"></div>
-        <a class="navbar-brand" href="#">
-            <header>
-                <h2 class="font-weight-bold text-white">Justin Le</h2>
-            </header>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="bg-light border-bottom">
+        <div class="container px-md-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-0">
+                <a class="navbar-brand" href="#">
+                    <header>
+                        <h2 class="font-weight-bold text-white">Justin Le</h2>
+                    </header>
+                </a>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <div class="col-xl-1 col-lg-1 col-md-1"></div>
-    </nav>
+    </div>
 
-    <div class="container-fluid" id="main-container">
-        <div class="row d-flex" id="main-content">
-            <div class="col-md-1"></div>
-            <div class="col-md-10 bg-white border px-4">
+    <div class="container my-5">
+        <div class="row justify-content-center my-3">
+            <div class="col-md-12 bg-white border px-4 mx-3">
                 <header>
                     <h1 class="font-weight-bold py-3">Portfolio</h1>
                 </header>
-                <div class="container-fluid text-center p-3">
-                    <div class="row text-center">
-                        <!-- <div class="col-md-6">
-                            <div class="project-names-container">
-                                <h3 class="project-names">project 1</h3>
-                            </div>
-                            <img class="img-fluid" src="https://via.placeholder.com/500x500" alt="Project 1">
-                        </div>
-                        <div class="col-md-6 p-3">
-                            <div class="project-names-container pl-3">
-                                <h3 class="project-names">project 2</h3>
-                            </div>
-                            <img class="img-fluid" src="https://via.placeholder.com/500x500" alt="Project 2">
-                        </div>
-                        <div class="col-md-6 p-3">
-                            <div class="project-names-container">
-                                <h3 class="project-names">project 3</h3>
-                            </div>
-                            <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 2">
-                        </div>
-                        <div class="col-md-6 p-3">
-                            <div class="project-names-container">
-                                <h3 class="project-names">project 4</h3>
-                            </div>
-                            <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 2">
-                        </div>
-                        <div class="col-md-6 text-center p-3">
-                            <div class="project-names-container">
-                                <h3 class="project-names">project 5</h3>
-                            </div>
-                            <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 2">
-                        </div> -->
+                <div class="container-fluid text-center">
 
-                        <div class="col-md-5 p-3">
-                            <header>
-                                <h3 class="project-names carousel-caption">Project 1</h3>
-                            </header>
-                            <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
-                        </div>
-                        <div class="col-md-2"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 col-6 p-3">
+                                    <header>
+                                        <h3 class="project-names mb-3 carousel-caption">Project 1</h3>
+                                    </header>
+                                    <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
+                                </div>
 
-                        <div class="col-md-5 p-3">
-                            <header>
-                                <h3 class="project-names carousel-caption">project 2</h3>
-                            </header>
-                            <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
-                        </div>
+                                <div class="col-md-6 col-sm-12 col-6 p-3">
+                                    <header>
+                                        <h3 class="project-names mb-3 carousel-caption">project 2</h3>
+                                    </header>
+                                    <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
+                                </div>
+                            </div>
 
-                        <div class="col-md-6 p-3">
-                            <header>
-                                <h3 class="project-names carousel-caption">project 3</h3>
-                            </header>
-                            <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
-                        </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 col-6 p-3">
+                                    <header>
+                                        <h3 class="project-names mb-3 carousel-caption">project 3</h3>
+                                    </header>
+                                    <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
+                                </div>
 
-                        <div class="col-md-6 p-3">
-                            <header>
-                                <h3 class="project-names carousel-caption">project 4</h3>
-                            </header>
-                            <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
-                        </div>
+                                <div class="col-md-6 col-sm-12 col-6 p-3">
+                                    <header>
+                                        <h3 class="project-names mb-3 carousel-caption">project 4</h3>
+                                    </header>
+                                    <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
+                                </div>
+                            </div>
 
-                        <div class="col-md-6 p-3">
-                            <header>
-                                <h3 class="project-names carousel-caption">project 5</h3>
-                            </header>
-                            <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 col-6 p-3">
+                                    <header>
+                                        <h3 class="project-names mb-3 carousel-caption">project 5</h3>
+                                    </header>
+                                    <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
+                                </div>
+                                <div class="col-md-6"></div>
+                            </div>
                         </div>
 
                     </div>
-
-                    <!-- <div class="row" id="projects">
-                        <div class="row">
-                            <div class="col-md-6 project-pictures">
-                                <div class="project-names">
-                                    <h3>project 1</h3>
-                                </div>
-                                <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 1">
-                            </div>
-                            <div class="col-md-6 project-pictures">
-                                <div>
-                                    <h3 class="project-names">project 2</h3>
-                                </div>
-                                <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 2">
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6 project-pictures">
-                                <div>
-                                    <h3 class="project-names">project 3</h3>
-                                </div>
-                                <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 3">
-
-                            </div>
-                            <div class="col-md-6 project-pictures">
-                                <div>
-                                    <h3 class="project-names">project 4</h3>
-                                </div>
-                                <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 4">
-
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12 project-pictures">
-                                <div>
-                                    <h3 class="project-names">project 5</h3>
-                                </div>
-                                <img class="img-fluid" src="https://via.placeholder.com/350x350" alt="Project 5">
-
-                            </div>
-                        </div>
-
-                    </div> -->
-
-
 
                 </div>
             </div>
@@ -172,7 +105,7 @@
     </div>
 
     <footer class="sticky-footer text-white bg-secondary pt-5">
-        <small>Copyright &copy;</small>
+        <mdall>Copyright &copy;</mdall>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
